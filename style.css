@@ -4,7 +4,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     color: whitesmoke;
     margin: 100px 400px;
@@ -13,23 +13,30 @@ body {
 header{
     margin:50px 0;
     background-image: url("./9b403bb15d7db6392fb9f3fd5a988859.jpg");
-    background-size:auto;
-    height:20vh;
+    border-radius: 20px;
+    background-size:cover;
+    height:15vh;
+    border: 1px solid white;
 }
 .header-content {
-    display: grid;
     color:lemonchiffon;
+    padding-left:20px;
+    line-height: normal;
 }
 img {
-    float:right;
+    float: right;
     border-radius: 50%;
-    margin-top: 60px;
+    border: 2px solid white;
+  
     width: 200px;
     height:200px;
+    margin: 30px;
+}
+nav {
+     float: right;
 }
 .nav-bar {
     display: grid;
-    
 }
 .nav-text {
     color:lemonchiffon;
@@ -58,7 +65,7 @@ a:hover {
     margin-right:40px;
 }
 footer {
-    height: 10vh;
+    height: 5vh;
     background-color: grey;
     display: flex;
     color:wheat;
